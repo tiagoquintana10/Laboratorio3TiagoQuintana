@@ -43,7 +43,7 @@ section{
 .principal{
 	width: 100%;
 	height: 650px;
-	background-image: url(../images/light_header.jpg);
+	background-image: url(../galeria/portada\ tevez.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -52,8 +52,8 @@ section{
 	color: #ffffff;
 }
 .principal div img{
-	width: 50%;
-	
+	width: 70%;
+
 }
 .secundario{
 	margin-top: 5%;
