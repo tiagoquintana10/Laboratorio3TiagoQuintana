@@ -41,7 +41,7 @@ section{
 	margin-right: auto;
 }
 .principal{
-	width: 100%;
+	width: 50%;
 	height: 650px;
 	background-image: url(../galeria/portada\ tevez.jpeg);
 	background-size: cover;
@@ -52,8 +52,8 @@ section{
 	color: #ffffff;
 }
 .principal div img{
-	width: 70%;
-
+	width: 50%;
+		
 }
 .secundario{
 	margin-top: 5%;
