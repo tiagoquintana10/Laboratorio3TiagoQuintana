@@ -42,14 +42,14 @@ section{
 }
 .principal{
 	width: 50%;
-	height: 260px;
+	height: 650px;
 	background-image: url(../galeria/portada\ tevez.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #ffffff;
+
 }
 .principal div img{
 	width: 50%;
