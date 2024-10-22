@@ -33,6 +33,15 @@ a{
 	text-decoration: none;
 	color: #000000;
 }
+div a{
+	font-size: 1.2rem;
+	padding-right: 2rem;
+	text-transform: uppercase;
+}
+div a:hover{
+	text-decoration: underline;
+	font-weight: 800;
+}
 .icon { display: none; }
 section{
 	max-width: 1300px;
@@ -41,9 +50,9 @@ section{
 	margin-right: auto;
 }
 .principal{
-	width: 50%;
+	width: 100%;
 	height: 650px;
-
+	background-image: url(../galeria/Portado\ tevez\ x2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -53,19 +62,19 @@ section{
 }
 .principal div img{
 	width: 50%;
-	background-image: url(../galeria/portada\ tevez.jpeg);
+	
 }
 .secundario{
 	margin-top: 5%;
 	display: flex;
 }
 .secundario div{
-	width: 33%;
+	width: 25%;
 	padding: 2%;
 	text-align: center;
 }
 .secundario div a img{
-	width: 100%;
+	width: 50%;
 	margin-bottom: 2rem;
 }
 h4{
