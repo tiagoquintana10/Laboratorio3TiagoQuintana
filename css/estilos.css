@@ -32,6 +32,42 @@ nav ul li a:hover{
 	text-decoration: underline;
 	font-weight: 800;
 }
+.menu_bar_infoserie ul {
+	text-align: center;
+}
+.menu_bar_infoserie ul li{
+	display: inline-block;
+	justify-content: center;
+
+}
+section article{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+section article p{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 15%;
+	font-size: 1.2rem;
+}
+section article div {
+	width: 70%;
+	display: inline-block;
+	text-align: center;
+	
+}
+section article div img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+section p{
+	text-align: left;
+	width: 100%;
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 1.5rem;
+}
 a{
 	text-decoration: none;
 	color: #000000;
@@ -257,4 +293,4 @@ div.pie_contacto span{
 	footer img{
 		max-width: 3rem;
 	}
-	}
+}
