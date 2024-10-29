@@ -40,34 +40,6 @@ nav ul li a:hover{
 	justify-content: center;
 
 }
-section article{
-	display: inline-block;
-	width: 25%;
-	vertical-align: top;
-}
-section article p{
-	vertical-align: top;
-	text-align: left;
-	padding-left: 15%;
-	font-size: 1.2rem;
-}
-section article div {
-	width: 70%;
-	display: inline-block;
-	text-align: center;
-	
-}
-section article div img{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-section p{
-	text-align: left;
-	width: 100%;
-	font-family: 'Times New Roman', sans-serif;
-	font-size: 1.5rem;
-}
 a{
 	text-decoration: none;
 	color: #000000;
@@ -123,6 +95,34 @@ section{
 .secundario a img{
 	width: 100%;
 	height: 100%;
+}
+.infoserie{
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	vertical-align: top;
+}
+.infoserie div{
+	width: 26%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.infoserie div img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.infoserie div h4{
+	width: 100%;
+}
+.infoserie div p{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 15%;
+	font-size: 1.2rem;
+	width: 100%;
+	font-family: 'Times New Roman', sans-serif;
 }
 h4{
 	font-size: 1.5rem;
