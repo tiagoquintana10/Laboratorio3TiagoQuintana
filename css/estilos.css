@@ -6,7 +6,9 @@
 body{
 	font-family: 'Times New Roman', sans-serif;
 	color: #fff;
-	background-image: url(../galeria/fondo\ negro\ 2.jpg);	
+	font-size: 1.2rem;
+	background-image: url(../galeria/fondo\ negro\ 2.jpg);
+
 }
 header{
 	padding-top: 2%;
@@ -106,15 +108,25 @@ section nav{
 	background-color: grey;
 }
 
-
+.trailler{
+	width: 78%;
+	background-color: grey;
+	display: block;
+	justify-content: center;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+.trailler video{
+	width: 100%;
+}
 .infoserie{
 	width: 100%;
 	display: flex;
 	justify-content: left;
 	vertical-align: top;
 	border-left: 2px solid white;
-	
-	
 }
 .infoserie div{
 	width: 26%;
@@ -144,6 +156,30 @@ section nav{
 	width: 100%;
 	font-family: 'Times New Roman', sans-serif;
 }
+.personajes{
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	background-color: grey;
+	text-align: center;
+	padding: 1%;
+}
+
+.personajes div img{
+	padding-top:3%;
+	width: 300px;
+	height: 180px;
+	max-height: 100%;
+}
+.personajes div p{
+	text-align: left;
+	padding: 2%
+}
+
 h4{
 	font-size: 1.5rem;
 	text-transform: uppercase;
